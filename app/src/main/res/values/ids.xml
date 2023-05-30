@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="btn_nextpage" type="id" />
+    <item name="et_noun" type="id" />
+    <item name="et_verb" type="id" />
+    <item name="et_adj" type="id" />
+    <item name="et_food" type="id" />
+    <item name="et_celeb" type="id" />
 </resources>

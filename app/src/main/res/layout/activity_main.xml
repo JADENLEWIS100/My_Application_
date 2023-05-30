@@ -20,68 +20,60 @@
             android:text="TextView" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/etNoun"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="Name" />
+            android:hint="Noun" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/etVerb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="Name" />
+            android:hint="Verb" />
 
         <EditText
-            android:id="@+id/editTextText3"
+            android:id="@+id/etAdj"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="Name" />
+            android:hint="Adjective" />
 
         <EditText
-            android:id="@+id/editTextText4"
+            android:id="@+id/etAdverb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="Name" />
+            android:hint="Adverb" />
 
         <EditText
-            android:id="@+id/editTextText5"
+            android:id="@+id/etColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="Name" />
+            android:hint="Color" />
 
         <EditText
-            android:id="@+id/editTextText6"
+            android:id="@+id/etFood"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="Name" />
+            android:hint="Food" />
 
         <EditText
-            android:id="@+id/editTextText7"
+            android:id="@+id/etCeleb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="Name" />
-
-        <EditText
-            android:id="@+id/editTextText8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:text="Celebrity" />
 
         <Button
             android:id="@+id/button"
