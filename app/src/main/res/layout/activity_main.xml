@@ -11,7 +11,8 @@
         android:layout_height="729dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/textView"
@@ -24,62 +25,75 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Noun"
             android:inputType="text"
-            android:hint="Noun" />
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/etVerb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Verb"
             android:inputType="text"
-            android:hint="Verb" />
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/etAdj"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Adjective"
             android:inputType="text"
-            android:hint="Adjective" />
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/etAdverb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Adverb"
             android:inputType="text"
-            android:hint="Adverb" />
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/etColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Color"
             android:inputType="text"
-            android:hint="Color" />
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/etFood"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Food"
             android:inputType="text"
-            android:hint="Food" />
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/etCeleb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Celebrity"
             android:inputType="text"
-            android:text="Celebrity" />
+            tools:ignore="TouchTargetSizeCheck" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnGenerate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Generate Story" />
+
+        <Button
+            android:id="@+id/btnNextpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
