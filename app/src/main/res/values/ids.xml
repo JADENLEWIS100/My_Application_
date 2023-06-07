@@ -6,4 +6,9 @@
     <item name="et_adj" type="id" />
     <item name="et_food" type="id" />
     <item name="et_celeb" type="id" />
+    <item name="btnGenerate" type="id" />
+    <item name="btnNextpage" type="id" />
+    <item name="etPluralNoun" type="id" />
+    <item name="tv_story" type="id" />
+    <item name="btn_generate" type="id" />
 </resources>
